@@ -1,10 +1,9 @@
 const express=require('express');
 
-require('dotenv').config()
+require('dotenv').config();
 
 const mongoose= require("mongoose");
 
-const validator=require("validator");
 
 const cors=require('cors');
 
@@ -104,6 +103,9 @@ const weatherModel= mongoose.model('weatherModel', weatherSchema);
 
 
 // fetching data from IQAIR API and inserting it into DaataBase Atas
+
+
+// let lat,lon;
 
 
 
