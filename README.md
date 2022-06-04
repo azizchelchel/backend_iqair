@@ -29,3 +29,5 @@ note:
       * database connection user and password are given in clear without using .env file (training database account)!
 
       ** the first insertion to database will be done after 60 seconds of the first execution (CRON JOB)
+
+      *** to execute the script run 'node server' command from terminal (cmd , powershel etc)
